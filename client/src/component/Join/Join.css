@@ -1,0 +1,63 @@
+.JoinPage {
+    background-color: rgb(14, 13, 13);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    color: #e7d8d8;
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+
+.JoinContainer {
+   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.JoinHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.JoinContainer > img {
+    width: 8vmax;
+}
+
+.JoinContainer > h1 {
+    font-size: 2.5vmax;
+    margin-bottom: 1rem;
+    width: 25vmax;
+    border-bottom: 0.2vmax solid white;
+    text-align: center;
+    padding: 1vmax;
+    
+}
+
+#joinInput{
+    width: 24vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    margin: 2vmax;
+}
+.joinbtn{
+    width: 24vmax;
+    padding: 1.5vmax;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 1.2vmax;
+   background-color: rgb(20, 220, 153);
+   transition: all 0.3s;
+   cursor: pointer;
+}
+.joinbtn:hover{
+    background-color: rgb(9, 128, 88);
+}
