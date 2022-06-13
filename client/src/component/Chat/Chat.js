@@ -4,7 +4,7 @@ import socketIO from "socket.io-client";
 import "./Chat.css";
 import sendLogo from "../../images/send.png";
 
-const ENDPOINT = "http://localhost:4500";
+const ENDPOINT = "http://localhost:4500"; 
 
 
 
@@ -15,7 +15,7 @@ const Chat = () => {
 
     useEffect(() => {
       socket.on('connect', ()=> {
-        
+        alert("Server Connected")
       })
 
       socket.emit('joined', {})
