@@ -14,13 +14,31 @@
 }
 
 .header {
-    background-color: rgb(20, 220, 153);
+    background-color: rgb(31, 192, 139);
     height: 15%;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
 
 }
 
+.header>h2{
+    font-size: 1.5vmax;
+    color: white;
+    margin: 2.5vmax;
+}
+.header img{
+    
+    margin: 2.5vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.header>img:hover{
+    transform: scale(1.2);
+}
+
 .chatBox {
-    border: 0.2vmax solid rgba(0, 0, 0, 0.877);
+   
     height: 70%;
 }
 
@@ -38,16 +56,18 @@
     padding: 2vmax;
     font-size: 1.2vmax;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
 }
 
 .sendBtn {
-    background-color: rgb(20, 220, 153);
+    background-color: rgb(26, 212, 150);
     color: white;
     border: none;
     width: 21%;
     transition: all 0.3s;
     cursor: pointer;
-    
+    padding: 2vmax;
+    border-top: 0.2vmax solid rgb(26, 212, 150); ;
 }
 .sendBtn>img {
     width: 2.6vmax;
@@ -55,9 +75,9 @@
     transition: all 0.3s;
 }
 .sendBtn:hover {
-    background-color: rgb(9, 128, 88);
+    background-color: rgb(3, 105, 71);
 }
 
 .sendBtn:hover img {
-    transform: translate(10px);
+    transform: translateX(10px);
 }
